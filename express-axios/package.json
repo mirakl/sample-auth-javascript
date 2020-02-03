@@ -1,0 +1,15 @@
+{
+  "name": "mirakl-auth-express-axios",
+  "version": "1.0.0",
+  "description": "Sample app demonstrating obtaining Mirakl access token using express and axios",
+  "main": "index.js",
+  "author": "mirakl",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0"
+  },
+  "devDependencies": {}
+}
