@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mirakl auth sample</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
+</head>
+<body>
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                My Own Order System
+            </h1>
+            <h2 class="subtitle">
+                This is your own system to manage order that you connect with Mirakl Connect APIs
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <h2>Your Mirakl Connect Orders</h2>
+
+            <p>List your Mirakl Connect Orders</p>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Mirakl Connect Id</th>
+                    <th>Created at</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each orders}}
+                <tr>
+                    <th>{{this.id}}</th>
+                    <th>{{this.created_at}}</th>
+                    <th>{{this.status}}</th>
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>
