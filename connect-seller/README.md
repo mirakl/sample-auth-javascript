@@ -10,10 +10,10 @@ This directory contains a sample web app which demonstrates how to:
 
 ## How to run the sample
 
-1. First, run `yarn install`
-2. You then need to fill the `config.js` with
+1. Run `yarn install`
+2. Fill in the `config.js` file with:
     * the Mirakl auth server url
-    * your `client_id` (retrieved from "Settings > API integration" page)
+    * your `client_id` (retrieved from the "Settings > API integration" page)
     * your `client_secret` (retrieved from "Settings > API integration" page)
     * your `company_id` (retrieved from "Settings > API integration" page)
     * the Mirakl Connect platform url
