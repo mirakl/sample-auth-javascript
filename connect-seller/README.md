@@ -12,10 +12,10 @@ This directory contains a sample web app which demonstrates how to:
 
 1. Run `yarn install`
 2. Fill in the `config.js` file with:
-    * the Mirakl auth server url
+    * the Mirakl auth server url (eg. https://auth.mirakl.net)
     * your `client_id` (retrieved from the "Settings > API integration" page)
-    * your `client_secret` (retrieved from "Settings > API integration" page)
-    * your `company_id` (retrieved from "Settings > API integration" page)
-    * the Mirakl Connect platform url
+    * your `client_secret` (retrieved from the "Settings > API integration" page)
+    * your `company_id` (retrieved from the "Settings > API integration" page)
+    * the Mirakl Connect platform url (eg. https://miraklconnect.com)
 3. Start the application: `node index.js`
 4. Open `http://localhost:10001`
