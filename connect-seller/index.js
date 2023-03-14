@@ -13,9 +13,10 @@ const retrieveNewToken = () => {
         method: 'post',
         url: `${cfg.auth_url}/oauth/token`,
         headers: {
-            accept: 'application/json'
+            accept: 'application/json',
+            'content-type': 'application/x-www-form-urlencoded'
         },
-        params: {
+        data: {
             grant_type: 'client_credentials',
             client_id: cfg.client_id, // We provide the client id,
             client_secret: cfg.client_secret,  // the client secret to authenticate the call (this is a server-to-server exchange, the secret is not leaked to the user)
